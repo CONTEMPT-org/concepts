@@ -1,25 +1,25 @@
 * Vision / Mission
 * Naming ideas
-** Clojure CMS (CCMS)
-** A Clojure CMS for Engineers (ACCE)
-** A CMS for Engineers (ACE)
-** ENCASE  ENgineering Content mAnagement SystEms
-** ELEMENTS  Engineers beLoved contEnt ManagemENT Systems
-** ECsTASY  Engineering ConTent mAnagement SYstems
-** FLaTMATE  FunctionaL conTent MAnagemenT Engineers
-** COMAS  COntent MAnagement Services
-** COMMONS  COntent ManageMeNt On Steroids
-** COWS  COntent Workflow Systems
-** COWFiSh  COntent WorkFlow servIces
-** CONTEMPT  CONTEnt Management PlaTform
-** COMP  COntent Management Platform
-** COMPO  COntent Management PlatfOrm
+  - Clojure CMS (CCMS)
+  - A Clojure CMS for Engineers (ACCE)
+  - A CMS for Engineers (ACE)
+  - ENCASE  ENgineering Content mAnagement SystEms
+  - ELEMENTS  Engineers beLoved contEnt ManagemENT Systems
+  - ECsTASY  Engineering ConTent mAnagement SYstems
+  - FLaTMATE  FunctionaL conTent MAnagemenT Engineers
+  - COMAS  COntent MAnagement Services
+  - COMMONS  COntent ManageMeNt On Steroids
+  - COWS  COntent Workflow Systems
+  - COWFiSh  COntent WorkFlow servIces
+  - CONTEMPT  CONTEnt Management PlaTform
+  - COMP  COntent Management Platform
+  - COMPO  COntent Management PlatfOrm
 * Principles
-** Immutability
-** Decoupling
+  - Immutability
+  - Decoupling
 * Technologies to consider
-** Docker
-** Datomic
-** Microservices
-** REST
-** Swagger
+  - Docker
+  - Datomic
+  - Microservices
+  - REST
+  - Swagger
