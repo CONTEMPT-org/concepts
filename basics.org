@@ -1,4 +1,3 @@
-* Vision / Mission
 * Naming ideas
   - Clojure CMS (CCMS)
   - A Clojure CMS for Engineers (ACCE)
@@ -14,12 +13,43 @@
   - CONTEMPT  CONTEnt Management PlaTform
   - COMP  COntent Management Platform
   - COMPO  COntent Management PlatfOrm
+* Vision / Mission
+  TBD
+* Licensing
+  - Free software
+  - Copyleft
+  - AGPL
 * Principles
-  - Immutability
+  - Immutability by default, Mutability explicit and isolated
+  - Persistent data
   - Decoupling
-* Technologies to consider
-  - Docker
-  - Datomic
-  - Microservices
-  - REST
-  - Swagger
+  - Fault tolerant
+  - Batteries included, but can be removed
+* Architecture
+** Services
+*** Authentication
+*** Authorization
+*** Content Storage
+*** Content Editing
+*** Content Querying
+*** Content Caching
+*** Content Frontend
+**** web and/or mobile example
+*** Service Monitoring
+*** Continuous integration and deployment
+** Technologies to consider
+   - Clojure, JVM
+   - Clojurescript for Frontends
+   - Docker
+     - Docker swarm
+     - Docker compose
+     - Docker machine
+   - Datomic
+   - Microservices
+   - REST (incl. discoverability)
+   - Swagger
+   - AWS
+   - Redis
+   - Datascript
+   - Linked Data formats
+   - JSON Schema
