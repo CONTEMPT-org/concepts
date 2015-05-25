@@ -7,7 +7,7 @@ _  /    __  /_  __ \  __/  _ \_  __ \  __/
 
 ```
 
-Clotent:  Clojure conTENT management platform
+Clotent:  CLOjure conTENT management platform
 
 # Concepts
 This is a collection of documents about the concept of [Clotent](https://github.com/Cloten)
