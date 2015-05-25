@@ -1,13 +1,13 @@
 ```
- ____   ___  _   _ _____ _____ __  __  ____ _____
-|___ \ / _ \| | / |_   _|____ |  \/  |/ _  |_   _|
-    | | | | | |/  | | |   |_  | |\/| | (_| | | |
- ___| | |_| |  /| | | |  ___| | |  | |\__  | | |
-|____/ \___/|_/ |_| |_| |_____|_|  |_|   |_| |_|
+______________     _____            _____ 
+__  ____/__  /_______  /______________  /_
+_  /    __  /_  __ \  __/  _ \_  __ \  __/
+/ /___  _  / / /_/ / /_ /  __/  / / / /_  
+\____/  /_/  \____/\__/ \___//_/ /_/\__/  
 
 ```
 
-CONTEMPT:  CONTEnt Management PlaTform
+Clotent:  Clojure conTENT management platform
 
 # Concepts
-This is a collection of documents about the concept of [CONTEMPT](https://github.com/CONTEMPT-org)
+This is a collection of documents about the concept of [Clotent](https://github.com/Cloten)
