@@ -13,9 +13,16 @@
   - CONTEMPT  CONTEnt Management PlaTform
   - COMP  COntent Management Platform
   - COMPO  COntent Management PlatfOrm
+  - Clotent - Clojure-based content management
+
 * Vision / Mission
-  TBD
-* Licensing
+  A modern, elegantly simple CMS, using Clojure and FP principles.
+  - Unified content data model: "It's all content." Share key content metadata (e.g. URI), primitives, operators. Avoid usual silos of webpage-copy, email, images, wiki, comments, forums, etc.
+  - Device/delivery-agnostic: "Write once, publish anywhere." Same content should be easily reformatted/re-purposed for desktop, mobile, email, apps, etc.
+  - Evolving composition: "New evolves from the old." Git-like versioning of "content atoms" supports the reality of re-writing and revision, as well as newer statistical content approaches like A/B testing, re-mixing.
+  - Non-monolithic architecture: "CMS-as-API, CMS-as-library." Your code should call the CMS, not the other way around.  Avoid the usual approach of CMS as monolithic architecture, that you must work-around.
+  
+  * Licensing
   - Free software
   - Copyleft
   - AGPL
