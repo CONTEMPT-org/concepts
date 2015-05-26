@@ -22,7 +22,7 @@
   - Evolving composition: "New evolves from the old." Git-like versioning of "content atoms" supports the reality of re-writing and revision, as well as newer statistical content approaches like A/B testing, re-mixing.
   - Non-monolithic architecture: "CMS-as-API, CMS-as-library." Your code should call the CMS, not the other way around.  Avoid the usual approach of CMS as monolithic architecture, that you must work-around.
   
-  * Licensing
+* Licensing
   - Free software
   - Copyleft
   - AGPL
