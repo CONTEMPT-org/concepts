@@ -18,10 +18,16 @@
 
 * Vision / Mission
 We want a modern, elegantly simple content management
-system/platform - built using Clojure and FP principles.
+system/platform - built using Clojure and FP principles.  
+
+Clotent should be easy and simple for its audiences to use,
+e.g. straightforward for a developer to integrate into an existing
+system, or for a user to create a new page/article at a URI of her
+choice.  There should be "escalating delight" as users discover
+Clotent's features.
 
 Clotent's high-level goals:
-1. Unified content data model: "It's all content."
+1. *Unified content* data model: "It's all content."
    - From the user-perspective/UX, there's *one party* (person,
      organization, or brand) behind an app or website, with *many
      digital touchpoints*
@@ -32,29 +38,44 @@ Clotent's high-level goals:
      visits a webpage, signs up for email freebie, reads the email,
      clicks on site link, reads the new page, leaves a comment -
      *these are all actions/events on Clotent entities*.
-   - content-atoms: irreducible units of text and binary data.
    - We want to avoid the usual content silos of webpage-copy, email,
-     images, wiki, comments, forums, etc.
-   - So all of Clotent's content-atoms/entities should share: key
-     content metadata (e.g. URI), and polymorphic operators.
-2. Content relations matter: "It's all connected."
-   - Every content-atom is related/connected to another, in some way.
+     images, wiki, comments, forums, etc. Those content silos arose
+     from the incidental complexity of SQL/relational table models,
+     which had to be different for each type.
+   - What are the entities in Clotent? *Anything with a
+     URI*. Content-atoms: irreducible units of text and binary
+     data. Content-molecules: structured combinations of
+     content-atoms.
+   - So all of Clotent's content-atoms/entities should share: base
+     content metadata (e.g. unique id, URI), and polymorphic
+     operators.
+2. *Pervasive content relations* matter: "It's all connected."
+   - Relationships between content are often as important as the
+     content itself, e.g. think of great comments/discussion on a good
+     article.
+   - In Clotent, every content-atom is related/connected to another,
+     in some way.
    - Relations can be explicit, e.g. hyperlink, or content-atom Y is a
-     comment on content-atom X
+     comment on content-atom X, or image Z is a thumbnail version of
+     the original image A.
    - Or relations can be implicit, e.g. content-atom Y is preceded by
      X, and followed by Y.  Or content-atom A is the title/parent of
      X, Y and Z.
    - Relations can be added automatically over time, e.g. by analyzing
      user interaction trails/events, or ML recommendation engines, or
      from content-analysis/similarity-scores, etc.
-3. Evolving composition: "New evolves from the old."
+3. *Evolving composition*: "New evolves from the old."
+   - The entire history of content in a Clotent system is tracked and
+     available, from immutable data models.
    - Git-like versioning of "content atoms" supports the reality of
      re-writing and revision, as well as newer statistical content
      revisions/evolution like A/B testing.
-4. Device/delivery-agnostic: "Write once, publish anywhere."
+4. *Device/delivery-agnostic*: "Write once, publish anywhere."
    - The same content should be easily reformatted/re-purposed for
      desktop, mobile, email, apps, etc.
-5. Non-monolithic architecture: "CMS-as-API, CMS-as-library."
+   - Technically, a strong separation-of-concerns (content
+     vs. presentation) will enable this.
+5. *Non-monolithic* architecture: "CMS-as-API, CMS-as-library."
    - Your code should call the CMS, not the other way around.  Avoid
      the usual approach of CMS as monolithic architecture/framework,
      that you must adapt to and work-around.
